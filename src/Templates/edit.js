@@ -1,9 +1,9 @@
 export default {
-    "template_type_name": "blue_admin_layout",
+    "template_type_name": "intellinews_admin_layout",
     "params": {
         "content_sections": [
             {
-                "type": "blue-admin-form",
+                "type": "intellinews-admin-admin-form",
                 "data": "++form_data"
             }
         ]

@@ -1,14 +1,14 @@
 export default {
-    "type": "blue-admin-page",
+    "type": "intellinews-admin-page",
     "data": {
+        // "navigation_bar_section": {
+        //     "type": "blue-admin-navigation-bar"
+        // },
         "sidebar_section": {
-            "template_type_name": "blue_admin_sidebar",
+            "template_type_name": "intellinews_admin_sidebar",
             "params": {
                 "sidebar_sections": "-++sidebar_sections"
             }
-        },
-        "navigation_bar_section": {
-            "type": "blue-admin-navigation-bar"
         },
         "content_sections": [
             {

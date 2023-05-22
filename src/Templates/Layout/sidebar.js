@@ -1,5 +1,5 @@
 export default {
-    "type": "blue-admin-sidebar",
+    "type": "intellinews-admin-sidebar",
     "data": {
         "brand_section": {
             "type": "blue-admin-sidebar-brand-icon",
