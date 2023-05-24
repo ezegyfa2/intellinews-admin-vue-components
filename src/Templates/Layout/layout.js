@@ -1,9 +1,6 @@
 export default {
     "type": "intellinews-admin-page",
     "data": {
-        // "navigation_bar_section": {
-        //     "type": "blue-admin-navigation-bar"
-        // },
         "sidebar_section": {
             "template_type_name": "intellinews_admin_sidebar",
             "params": {
