@@ -1,6 +1,10 @@
 @import '../../../blue-admin-vue-components/src/AdminPage/Style.scss';
 @import '../styles/variables';
 
+.wrapper {
+    flex-direction: column;
+}
+
 .content-wrapper {
     background-color: $primary-bg-color;
 }

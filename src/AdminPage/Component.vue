@@ -1,3 +1,7 @@
+<template lang="pug">
+include Template.pug
+</template>
+
 <script>
     import AdminPage from '../../../blue-admin-vue-components/src/AdminPage/Component.vue'
     import SessionMessages from './../../../helper-vue-components/src/SessionMessages/SessionMessages.vue'

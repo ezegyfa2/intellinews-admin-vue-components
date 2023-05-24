@@ -7,6 +7,9 @@ export default {
                 "sidebar_sections": "-++sidebar_sections"
             }
         },
+        "navigation_bar_section": {
+            "template_type_name": "intellinews_admin_navigationBar"
+        },
         "content_sections": [
             {
                 "type": "blue-admin-centered-content",

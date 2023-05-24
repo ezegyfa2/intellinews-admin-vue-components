@@ -1,3 +1,7 @@
+<template lang="pug">
+include Template.pug
+</template>
+
 <script>
     import Sidebar from '../../../../blue-admin-vue-components/src/Sidebar/Sidebar/Component.vue'
 

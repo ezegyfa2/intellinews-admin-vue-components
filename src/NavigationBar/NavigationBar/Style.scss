@@ -1,0 +1,34 @@
+@import '../../styles/variables';
+@import '~bootstrap/scss/bootstrap';
+
+.topbar {
+    height: $topbar-base-height;
+    #sidebarToggleTop {
+        height: 2.5rem;
+        width: 2.5rem;
+        &:hover {
+            background-color: $gray-200;
+        }
+        &:active {
+            background-color: $gray-300;
+        }
+    }
+    .topbar-divider {
+        width: 0;
+        border-right: 1px solid $secondary-color-lighter;
+        height: calc(#{$topbar-base-height} - 2rem);
+        margin: auto 1rem;
+    }
+}
+
+.bg-gradient {
+    background-color: $secondary-color;
+}
+
+.sidebar-brand {
+    color: $primary-color;
+    margin-bottom: 0rem;
+    &:hover {
+        color: $light-color;
+    }
+}

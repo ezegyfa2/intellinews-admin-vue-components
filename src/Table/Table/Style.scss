@@ -15,18 +15,14 @@ table {
 }
 
 .card-body-header {
-    background-color: $secondary-color;
-    border-bottom: 0.1rem solid $secondary-color;
+    background-color: $primary-color;
+    border-bottom: 0.1rem solid $primary-color;
 }
 
 label p {
-    color: $primary-color;
+    color: $light-color;
 }
 
 .active {
-    color: $primary-color;
-}
-
-.container-fluid {
-    margin-top: 3rem;
+    color: $light-color;
 }

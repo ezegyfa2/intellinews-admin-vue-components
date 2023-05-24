@@ -13,6 +13,13 @@ export default {
 		);
 
 		registerVueComponent(
+			'intellinews-admin-navigation-bar',
+			require('./NavigationBar/NavigationBar/Component.vue').default,
+			Vue,
+			'intellinews-admin-vue-components/src/NavigationBar/NavigationBar/Component.vue'
+		);
+
+		registerVueComponent(
 			'intellinews-admin-admin-form',
 			require('./Forms/AdminForm/Component.vue').default,
 			Vue,
